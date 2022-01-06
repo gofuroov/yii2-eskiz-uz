@@ -6,7 +6,7 @@ use yii\helpers\Console;
 
 class MigrateController extends \yii\console\controllers\MigrateController
 {
-    public $migrationPath = ['@backend/modules/smsgo/migrations'];
+    public $migrationPath = ['@gofuroov/eskiz/migrations'];
     public $migrationTable = '{{%smsgo_migration}}';
 
     public function beforeAction($action)
