@@ -35,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 <div class="tab-pane active" id="tab_1">
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="<?= Url::to('history') ?>">
+                            <a href="<?= Url::to(['history']) ?>">
                                 <div class="info-box">
                                 <span class="info-box-icon bg-gradient-blue">
                                     <i class="fa-regular fa-envelope"></i>
@@ -48,7 +48,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a href="<?= Url::to('settings') ?>">
+                            <a href="<?= Url::to(['settings']) ?>">
                                 <div class="info-box">
                                 <span class="info-box-icon bg-gradient-blue">
                                     <i class="fa fa-cogs"></i>
